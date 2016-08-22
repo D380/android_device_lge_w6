@@ -1,4 +1,4 @@
-CyanogenMod 13.0 device configuration for LG L65
+CyanogenMod 13.0 device configuration for LG L80
 
 Set working directory:
 -------------
