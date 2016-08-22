@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-ifneq ($(filter w55ds,$(TARGET_DEVICE)),)
+ifneq ($(filter w6ds,$(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 
