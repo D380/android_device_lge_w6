@@ -19,14 +19,14 @@ $(call inherit-product, frameworks/native/build/phone-hdpi-512-dalvik-heap.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Specific overlay
-DEVICE_PACKAGE_OVERLAYS += device/lge/w55ds/overlay
+DEVICE_PACKAGE_OVERLAYS += device/lge/w6ds/overlay
 
 # Configs
 PRODUCT_COPY_FILES += \
-    device/lge/w55ds/prebuilt/etc/media_profiles.xml:system/etc/media_profiles.xml \
-    device/lge/w55ds/prebuilt/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
-    device/lge/w55ds/prebuilt/usr/idc/touch_dev.idc:system/usr/idc/touch_dev.idc \
-    device/lge/w55ds/prebuilt/usr/keylayout/Generic.kl:system/usr/keylayout/Generic.kl
+    device/lge/w6ds/prebuilt/etc/media_profiles.xml:system/etc/media_profiles.xml \
+    device/lge/w6ds/prebuilt/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
+    device/lge/w6ds/prebuilt/usr/idc/touch_dev.idc:system/usr/idc/touch_dev.idc \
+    device/lge/w6ds/prebuilt/usr/keylayout/Generic.kl:system/usr/keylayout/Generic.kl
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
@@ -53,5 +53,5 @@ PRODUCT_PACKAGES += \
 
 # Inherit from msm8226-common
 $(call inherit-product, device/lge/msm8226-common/msm8226.mk)
-$(call inherit-product, vendor/lge/w55ds/w55ds-vendor.mk)
+$(call inherit-product, vendor/lge/w6ds/w6ds-vendor.mk)
 
